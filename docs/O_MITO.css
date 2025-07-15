@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(fg3.webp)  no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Georgia', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.papel-antigo {
+  background: url(papel.jpeg) no-repeat center center;
+  background-size: cover;
+  padding: 40px;
+  max-width: 600px;
+  color: #4b3b2a;
+  text-align: justify;
+  border: 3px solid #a67c52;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.papel-antigo h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.papel-antigo p {
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .papel-antigo {
+    padding: 20px;
+    margin: 20px;
+    max-width: 90%;
+  }
+
+  .papel-antigo h1 {
+    font-size: 24px;
+  }
+
+  .papel-antigo p {
+    font-size: 16px;
+  }
+}
